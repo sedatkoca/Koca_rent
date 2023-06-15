@@ -1,0 +1,132 @@
+<!-- HTML  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .button1{
+            color: #2eaa34;
+            position: absolute;
+            left: 222px;
+            top: 195px;
+            font-style:italic;
+            font-size:x-large ;
+            cursor: pointer;
+            padding: 12px 28px;
+            font-weight: 700;
+            border-radius: 30px;
+            background-color: #fff;
+            transition: ease 0.5s;
+        }
+        .button1:hover {
+        background-color: #000;
+        color: #fff;
+        border-color: #fff;
+
+}
+        .button2 {background-color: #008CBA;}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>KOCA RENT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="navbar">
+        <a href="#">
+            <img src="./image/logo.png" alt="logo">
+            <br><br>
+            <button class= "button1" > <b>RENT</b>
+            </button>
+           
+        </a>
+        <nav>
+            <ul>
+                <li> <a href="index.html">ANASAYFA</a></li>
+                <li> <a href="#">ARABALAR   </a><i class="fa-solid fa-bars"></i></li>
+                <li> <a href="#">MOTOSİKLETLER    </a><i class="fa-solid fa-bars"></i></li>
+                <li> <a href="#">HAKKIMIZDA</a></li>
+                <li> <a href="#">SIKÇA SORULAN SORULAR</a></li>
+                <li> 
+                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <h1>
+                İSMİ BÜYÜK
+                <hr/>
+                FİYATI KÜÇÜK
+            </h1>
+<h3 id="demo" onclick="myFunction()">Click me to change my color.</h3>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").style.color = "red";
+}
+</script>
+
+
+
+
+
+            <p class="desc">
+                KOCA RENT elektrikli araçların yoğunlukta olduğu, 
+                erişilebilirliğin daha kolay olduğu, 
+                araç kiralamak için uzun sürelerin harcanmadığı bir araç kiralama rezervasyon sistemidir.
+
+            </p>
+            <button class="btn" onclick="window.location.href='file:///C:/Users/sedat/Desktop/proje/MyCarSite/index.html#'">BÜTÜN ARAÇLAR</button>
+        </div>
+        <div class="col">
+            <div class="cards">
+                <div class="card card-1">
+                    <div class="card-head">
+                        <h5>Togg</h5>
+                        <p>Yerli ve milli doğa dostu aracımız</p>
+                    </div>
+                    <div class="card-bottom">
+                        <a href="https://www.togg.com.tr/" class="btn">Detaylar</a>
+                    </div>
+                </div>
+                <div class="card card-2">
+                    <div class="card-head">
+                        <h5>Mercedes-Benz</h5>
+                        <p>En iyi ya da hiçbir şey</p>
+                    </div>
+                    <div class="card-bottom">
+                        <a href="https://www.mercedes-benz.com.tr/passengercars/mercedes-benz-cars/electromobility/e-mobility.html" class="btn">Detaylar</a>
+                    </div>
+                </div>
+                <div class="card card-3">
+                    <div class="card-head">
+                        <h5>Tesla</h5>
+                        <p>Geleceğe ışık tutan</p>
+                    </div>
+                    <div class="card-bottom">
+                        <a href="https://www.tesla.com/model3" class="btn">Detaylar</a>
+                    </div>
+                </div>
+                <div class="card card-4">
+                    <div class="card-head">
+                        <h5>BMW</h5>
+                        <p>Saf sürüş keyfi</p>
+                    </div>
+                    <div class="card-bottom">
+                        <a href="https://www.bmw.com.tr/tr/topics/fascination-bmw/bmw-i-ve-e-mobilite/bmw-i.html" class="btn">Detaylar</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+</div>
+    
+   </div>
+</body>
+</html>
